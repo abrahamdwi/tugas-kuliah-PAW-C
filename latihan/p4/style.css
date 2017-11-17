@@ -1,0 +1,58 @@
+body{
+	font-family: 'Open Sans', sans-serif;	
+	line-height: 1;	 
+}
+#wrapper{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	background: #151515; 
+}
+header:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+#logo{
+	float: left;
+	width: 270px;
+	height: 70px;
+	background: url("img/logo.png");
+}
+nav{
+	float: right;
+	margin-top: 28px;
+}	
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+}
+nav a:hover{
+	color: #e8e6e0;
+}
+nav li{
+	float: left;
+	margin: 0px 0px 0px 20px;
+
+}
+nav span{
+	color: #50b106;
+	margin-left: 20px;
+}
+#banner{
+	max-width: 450px;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+
+#banner img{
+	width: 100%;
+}
+#banner	#belakang{
+	
+}

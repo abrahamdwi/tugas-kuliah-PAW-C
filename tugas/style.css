@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;	
+	line-height: 1;	 
+}
+#wrapper{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	background: white; 
+}
+header:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+#logo{
+	float: left;
+	width: 230px;
+	height: 45px;
+	background: url("img/logo-f1.png");
+}
+nav{
+	float: right;
+	margin-top: 15px;
+}/* menu navigasi */	
+
+nav a{
+	text-decoration: none;
+	color: red;
+
+}
+nav a:hover{
+	color: #e8e6e0;
+}
+nav li{
+	float: left;
+	margin: 0px 0px 0px 20px;
+
+}
+nav span{
+	color: #50b106;
+	margin-left: 20px;
+}
+#banner{
+	max-width: auto;
+	max-height: auto;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+
+#banner img{
+	width: 100%;
+	height: 100%;
+	margin-top: -20px;
+	margin-left: auto;
+	margin-bottom: 0px;
+	text-align: center;
+} /*poto BG*/
+
+#wrapper a #button{
+	width: 250px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+} /*tombol banyak drivers*/
+#belakang-judul{
+	margin: -370px 10px 250px 10px;
+	text-align: center;
+} /* seluruh judul di BG*/
+#judul-banner{
+	font-family: "Myriad Pro";
+	font-size: 62px;
+	color: white;
+}/*judul banner*/
+#view-banner{
+	font-family: "Myriad Pro";
+	font-size: 25px;
+	color: white;
+	margin: 0px 175px 0px 175px;
+	
+} /*text sinopsis judul di BG*/
+
+#content img{
+	width: 100%;
+	height: 100%;
+	margin-top: -60px;
+	margin-left: auto;
+	margin-bottom: 0px;
+}/*judul 2*/
+#lotus-team #lotuscar{
+	float: left;
+	width: 30%;
+	height: 80%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-bottom: 0px;
+} /*poto lotus*/
+#lotus{
+
+	float: left;
+	margin: -150px 30px 40px 320px;
+}
+#lotus a{
+	font-family: "Myriad Pro";
+	font-size: 50px;
+	align: justify;
+	color: #a8a8a8;
+	text-decoration: none;	
+} /*judul lotus*/
+#lotus p{
+	font-family: "Myriad Pro";
+	font-size: 19px;
+	text-align: justify; 
+	color: #898989;
+
+}/*text redbull*/
+#redbull-team #redbullcar{
+	margin-top: 35px;
+}
+#redbull{
+	margin: 80px 50px 10px 50px;
+}
+#redbull a{
+	font-family: "Myriad Pro";
+	font-size: 50px;
+	align: justify;
+	color: #a8a8a8;
+	text-decoration: none;	
+} /*judul redbull*/
+#redbull p{
+	font-family: "Myriad Pro";
+	font-size: 19px;
+	text-align: justify; 
+	color: #898989;
+}/*text redbull*/
+#force-team #forcecar{
+	float: left;
+	width: 30%;
+	height: 80%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-bottom: 30px;
+}	/*gambar force india*/
+
+#force{
+	float: left;
+	margin: -150px 30px 40px 320px;
+} /*judul force india*/
+#force a{
+	font-family: "Myriad Pro";
+	font-size: 50px;
+	text-align: justify;
+	color: #a8a8a8;
+	text-decoration: none;
+}
+#force p{
+	font-family: "Myriad Pro";
+	font-size: 19px;
+	text-align: justify; 
+	color: #898989;
+}
+#footer  img{
+	float: left;
+	margin-top: 40px;
+	margin-left: -200px;
+	width: 1353px;
+	height: 400px;
+} /*BG*/
+#footer1 img{	
+	max-width: 350px;
+	max-height: 250px;
+	float: right;
+	margin-top: -300px; 
+
+} 
+#footer a #button2{
+	float: left;
+	width: 300px;
+	height: 50px;
+	margin-top: -420px;
+	margin-left: -5px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}/*button */
+
+#footer1 p{
+	text-align: justify;
+	font-family: "Myriad Pro"
+	font-size : 19px;	
+	color: white;
+	float: left;
+	margin: -300px 380px 0px 0px;
+} /*text pada footer*/
+
+#footer1 a #button3{
+	float: left;
+	width: 200px;
+	height:40px;
+	margin:-80px 0px 0px 30px;
+}/*tombol sosmed*/
